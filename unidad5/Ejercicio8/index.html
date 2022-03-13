@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+     <title>Position</title>
+     <meta charset="utf-8">
+     <meta name="description" content="Documento html">
+     <meta name="keywords" content="html">
+     <style>
+        body {
+    width: 500px;
+    margin: 0px;
+}
+h1 {
+  position: fixed;
+  top: 0;
+} 
+p:nth-of-type(1) {
+margin-top: 60px;
+}
+.positioned {
+    position: sticky;
+    background: rgba(255,84,103,.3);
+    top: 60px;
+    left: 60px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(255,84,104);
+    border-radius: 5px;
+}
+body{
+font-family: Lato;
+background: #2b2a2a;
+color: white;
+}
+
+body h1{
+font-family: Lato;
+background: #2b2a2a;
+color: white;
+text-align: center;
+}
+
+.menu{
+list-style: none;
+padding: 0;
+background: #092327;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+width: 90%;
+max-width: 110px;
+margin: auto;
+}
+
+.menu li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+padding: 20px;
+display: block;
+}
+
+.menu li{
+display: inline-block;
+text-align: center;
+}
+
+.menu li a:hover{
+background: #006eff;
+border: 5px solid #006eff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+     </style>
+   </head>
+<body>
+   <main>
+     <header></header>
+     <h1>Ejercicio 8</h1>
+     <h1>Posicionamiento sticky</h1>
+     <section>
+        <p>
+         is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <div class="positioned">
+         STICKY
+        </div>
+        <p>
+         is simply dummy text of the printing and typesetting is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>
+         is simply dummy text of the printing,<span>joking</span> is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software <span> Aldus PageMaker </span> including versions of Lorem Ipsum.
+        </p>
+        <p>
+         is simply dummy text of the is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more  printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        
+         <article></article>
+     </section>
+      <aside></aside>
+   </main>
+   
+<nav class="menu">
+   <li><a href="./../index.html">Regresar</a></li>
+   </nav>     
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+     <title>flex</title>
+     <meta charset="utf-8">
+     <meta name="description" content="Documento html">
+     <meta name="keywords" content="html">
+     <style>
+       #grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1vw;
+}
+#grid > div {
+  font-size: 5vw;
+  padding: .3em;
+  background: greenyellow;
+  text-align: center;
+  
+}
+body{
+font-family: Lato;
+background: #2b2a2a;
+}
+
+body h1{
+font-family: Lato;
+background: #2b2a2a;
+color: white;
+text-align: center;
+}
+
+.menu{
+list-style: none;
+padding: 0;
+background: #092327;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+width: 90%;
+max-width: 110px;
+margin: auto;
+}
+
+.menu li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+padding: 20px;
+display: block;
+}
+
+.menu li{
+display: inline-block;
+text-align: center;
+}
+
+.menu li a:hover{
+background: #006eff;
+border: 5px solid #006eff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+     </style>
+   </head>
+<body>
+  <h1>Ejercicio 3</h1>
+    <div id="grid">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+    </div>
+    
+    <nav class="menu">
+      <li><a href="./../index.html">Regresar</a></li>
+      </nav>
+</body>
+</html>
