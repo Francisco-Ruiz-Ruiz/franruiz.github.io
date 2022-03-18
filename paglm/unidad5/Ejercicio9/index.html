@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+     <title>flex</title>
+     <meta charset="utf-8">
+     <meta name="description" content="Documento html">
+     <meta name="keywords" content="html">
+     <style>
+       #main {
+  display: flex;
+  min-height: calc(100vh - 30vh);
+}
+header, footer {
+  background: grey;
+  height: 15vh;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav,
+#main > aside {
+  flex: 0 0 20vw;
+  background: beige;
+}
+#main > nav {
+  order: -1;
+}
+body {
+  margin: 0;
+
+}
+header, footer {
+  background: grey;
+  height: 15vh;
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+}
+article{
+  background-color: white;
+}
+body{
+font-family: Lato;
+background: #2b2a2a;
+}
+
+body h1{
+font-family: Lato;
+background: #2b2a2a;
+color: white;
+text-align: center;
+}
+
+.menu{
+list-style: none;
+padding: 0;
+background: #092327;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+width: 90%;
+max-width: 110px;
+margin: auto;
+}
+
+.menu li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+padding: 20px;
+display: block;
+}
+
+.menu li{
+display: inline-block;
+text-align: center;
+}
+
+.menu li a:hover{
+background: #006eff;
+border: 5px solid #006eff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+     </style>
+   </head>
+<body>
+  <h1>Ejercicio 9</h1>
+     <header>Encabezado</header>
+     <div id="main">
+      <article>Articulo</article>
+      <nav>Nav</nav>
+      <aside>Aside</aside>
+     </div>
+     <footer>
+      Footer
+  </footer> 
+  <nav class="menu">
+    <li><a href="./../index.html">Regresar</a></li>
+    </nav> 
+</body>
+   
+     
+
+</html>
