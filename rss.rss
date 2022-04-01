@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Página de Fran Ruiz</title>
+<link>https://francisco-ruiz-ruiz.github.io/franruiz.github.io/index.html</link>
+<description>Una pagina en la que puedes ver información sobre Córdoba</description>
+<item>
+    <title>Cordoba Patrimonio</title>
+    <link>https://francisco-ruiz-ruiz.github.io/franruiz.github.io/cp/index.html</link>
+    <description>Una pagina en la que puedes ver información sobre Córdoba</description> 
+</item>
+<item>
+    <title>Página Lenguaje de Marcas</title>
+    <link>https://francisco-ruiz-ruiz.github.io/franruiz.github.io/paglm/index.html</link>
+    <description>Una pagina en la que puedes ver información sobre Córdoba</description> 
+</item>
+<item>
+    <title>Recetas de la abuela</title>
+    <link>https://francisco-ruiz-ruiz.github.io/franruiz.github.io/Recetas-Abuela/index.html</link>
+    <description>Una pagina en la que puedes ver información sobre Córdoba</description> 
+</item>
+</channel>
+</rss>
