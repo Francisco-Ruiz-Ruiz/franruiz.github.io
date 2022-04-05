@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Pagina de Fran Ruiz</title>
+<link rel="alternate" type="text/xml" href="atom.atom"/>
+<id>https://francisco-ruiz-ruiz.github.io/franruiz.github.io/</id>
+
+<entry>
+    <title>EJERCICIO 1</title>
+    <link href="./paglm/unidad7/ej1.xml"/>
+    <id>https://francisco-ruiz-ruiz.github.io/franruiz.github.io/paglm/unidad7/ej1.xml</id>
+    <author>
+    <name>Fran Ruiz</name>
+    <email>a21rurufr@iesgrancapitan.org</email>
+    </author>
+    <summary>EJERCICIO 1 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 2</title>
+    <link href="./paglm/unidad7/ej2.xml"/>
+    <id>https://francisco-ruiz-ruiz.github.io/franruiz.github.io/paglm/unidad7/ej2.xml</id>
+    <author>
+        <name>Fran Ruiz</name>
+        <email>a21rurufr@iesgrancapitan.org</email>
+        </author>
+        <summary>EJERCICIO 2 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 3</title>
+    <link href="./paglm/unidad7/ej3.xml"/>
+    <id>https://francisco-ruiz-ruiz.github.io/franruiz.github.io/paglm/unidad7/ej3.xml</id>
+    <author>
+    <name>Fran Ruiz</name>
+    <email>a21rurufr@iesgrancapitan.org</email>
+    </author>
+    <summary>EJERCICIO 3 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 4</title>
+    <link href="./paglm/unidad7/ej4.xml"/>
+    <id>https://francisco-ruiz-ruiz.github.io/franruiz.github.io/paglm/unidad7/ej4.xml</id>
+    <author>
+    <name>Fran Ruiz</name>
+    <email>a21rurufr@iesgrancapitan.org</email>
+    </author>
+    <summary>EJERCICIO 4 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 5</title>
+    <link href="./paglm/unidad7/ej5.xml"/>
+    <id>https://francisco-ruiz-ruiz.github.io/franruiz.github.io/paglm/unidad7/ej5.xml</id>
+    <author>
+    <name>Fran Ruiz</name>
+    <email>a21rurufr@iesgrancapitan.org</email>
+    </author>
+    <summary>EJERCICIO 5 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 6</title>
+    <link href="./paglm/unidad7/ej6.xml"/>
+    <id>https://francisco-ruiz-ruiz.github.io/franruiz.github.io/paglm/unidad7/ej6.xml</id>
+    <author>
+    <name>Fran Ruiz</name>
+    <email>a21rurufr@iesgrancapitan.org</email>
+    </author>
+    <summary>EJERCICIO 6 DE XML</summary>
+</entry>
+</feed>
